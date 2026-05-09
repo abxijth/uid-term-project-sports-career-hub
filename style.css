@@ -299,7 +299,6 @@ header .navbar {
 
 @media screen and (max-width: 900px) {
 
-
   body.show-mobile-menu header::before {
     content: "";
     position: fixed;
@@ -401,6 +400,34 @@ header .navbar {
     height: 100%;
     max-width: 250px;
     aspect-ratio: 1;
+  }
+
+  .showcase-section .showcase-list {
+    gap: 30px;
+
+  }
+
+  .showcase-section .showcase-list .showcase-item {
+    width: calc(100% / 2 - 30px);
+  }
+
+  .showcase-section .showcase-list .showcase-item .showcase-image {
+    max-width: 200px;
+  }
+
+
+}
+
+@media screen and (max-width: 640px) {
+
+  .showcase-section .showcase-list {
+    gap: 60px;
+
+  }
+
+  .showcase-section .showcase-list .showcase-item {
+    width: 100%
+  
   }
 }
 
