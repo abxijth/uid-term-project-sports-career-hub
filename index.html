@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
 </head>
 <body>
   <header>
@@ -15,11 +16,12 @@
       </a>
 
       <ul class="nav-menu">
+        <button id="menu-close-button" class="fas fa-times"></button>
         <li class="nav-item">
-          <a href="#" class="nav-link">Home</a>
+          <a href="#hero-section" class="nav-link">Home</a>
         </li>
         <li class="nav-item">
-          <a href="#" class="nav-link">About</a>
+          <a href="#about-section" class="nav-link">About</a>
         </li>
         <li class="nav-item">
           <a href="#" class="nav-link">Showcase</a>
@@ -35,6 +37,7 @@
         </li>
         
       </ul>
+      <button id="menu-open-button" class="fas fa-bars"></button>
 
     </nav>
   </header>
@@ -63,8 +66,32 @@
       </div>
     </section>
 
+    <section class="about-section">
+      <div class="section-content">
+        <div class="about-details">
+          <h2 class="about-title">About Us</h2>
+          <p class="text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus dolore soluta ab placeat libero 
+            ea reprehenderit cumque qui, mollitia vel earum laudantium eos at eaque molestiae id possimus recusandae iure. 
+            Maxime dolores, aspernatur et esse quisquam laborum rem quos, quam officia molestias fuga? Aspernatur corporis 
+            eligendi enim maiores autem. Quas aliquid cupiditate beatae cum corporis quidem ea ex consectetur. Ullam ipsam 
+            vitae vel quod aut, et nam expedita explicabo unde pariatur laborum rem corporis eius illum asperiores blanditiis 
+            odit! Eos voluptate commodi officia provident ex eaque nisi quia magnam voluptatum accusamus. Modi dolores possimus 
+            exercitationem dolor, dolore nesciunt ex ipsa.
+          </p>
+          <div class="social-link-list">
+            <a href="" class="social-link"><i class="fa-brands fa-facebook"></i></a>
+            <a href="" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+            <a href="" class="social-link"><i class="fa-brands fa-youtube"></i></a>
+            <a href="" class="social-link"><i class="fa-brands fa-x-twitter"></i></a>
+          </div>
+        </div>      
+      </div>
+    </section>
+
     
   </main>
+
+  <script src="script.js"></script>
 
 
 </body>
