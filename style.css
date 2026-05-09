@@ -3,6 +3,7 @@
 
 html {
     scroll-behavior: smooth;
+   
     
 }
 
@@ -134,6 +135,12 @@ header .navbar {
   
 }
 
+.hero-section .hero-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
 .hero-section .hero-image-wrapper {
   max-width: 500px;
   max-height: 500px;
@@ -236,7 +243,8 @@ header .navbar {
 
 .showcase-section {
   padding: 50px 0 100px;
-  background-color: #f8f5ee;
+  border-top: 2px solid rgb(241, 240, 240);
+  
 }
 
 .showcase-section .showcase-list {
