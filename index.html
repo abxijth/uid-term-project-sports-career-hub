@@ -27,13 +27,13 @@
           <a href="#showcase-section" class="nav-link">Showcase</a>
         </li>
         <li class="nav-item">
+          <a href="#resource-section" class="nav-link">Resources</a>
+        </li>
+        <li class="nav-item">
+          <a href="#faq-section" class="nav-link">FAQ</a>
+        </li>
+        <li class="nav-item">
           <a href="#contact-section" class="nav-link">Contact</a>
-        </li>
-        <li class="nav-item">
-          <a href="#" class="nav-link">Resources</a>
-        </li>
-        <li class="nav-item">
-          <a href="#" class="nav-link">FAQ</a>
         </li>
         
       </ul>
@@ -50,8 +50,8 @@
           <h3 class="subtitle">Where athletes meet opportunity.</h3>
           <p class="description">Connect with scouts, showcase your talent and build your sports career in one place.</p>
           <div class="buttons">
-            <a href="#" class="button register-now">Register Now</a>
-            <a href="#" class="button contact-us">Contact Us</a>
+            <a href="#" class="button register-now" onclick="registerUser()">Register Now</a>
+            <a href="#contact-section" class="button contact-us">Contact Us</a>
 
           </div>
         </div>
@@ -73,7 +73,7 @@
         </div>
         <div class="about-details">
           <h2 class="section-title">About Us</h2>
-          <p class="text">SportsHere is an interactive platform designed to guide aspiring athletes, sports enthusiasts, and professionals toward exciting career opportunities in the sports industry. Our goal is to bridge the gap between talent and opportunity by providing resources, mentorship, and career guidance in sports-related fields. Our mission is to empower individuals passionate about sports by helping them discover career paths, develop skills, and connect with organizations and opportunities in the sports ecosystem.</p>
+          <p class="text">SportsHere is an interactive platform designed to guide aspiring athletes, sports enthusiasts, and professionals toward exciting career opportunities in the sports industry. Our goal is to bridge the gap between talent and opportunity by providing resource, mentorship, and career guidance in sports-related fields. Our mission is to empower individuals passionate about sports by helping them discover career paths, develop skills, and connect with organizations and opportunities in the sports ecosystem.</p>
           <div class="social-link-list">
             <a href="" class="social-link"><i class="fa-brands fa-facebook"></i></a>
             <a href="" class="social-link"><i class="fa-brands fa-instagram"></i></a>
@@ -93,39 +93,194 @@
 
         <ul class="showcase-list">
           <li class="showcase-item">
-            <img src="./assets/sports-coach.jpeg" alt="" class="showcase-image">
-            <h3 class="name">Sports Coach</h3>
-            <p class="text">Train athletes and improve team performance.</p>           
+            <a href="https://www.indeed.com/career-advice/finding-a-job/career-in-sports-coaching" target="_blank" class="showcase-link">
+              <img src="./assets/sports-coach.png" alt="" class="showcase-image">
+              <h3 class="name">Sports Coach</h3>
+              <p class="text">Train athletes and improve team performance.</p>
+            </a>
           </li>
           <li class="showcase-item">
-            <img src="./assets/fitness-trainer.jpeg" alt="" class="showcase-image">
-            <h3 class="name">Fitness Trainer</h3>
-            <p class="text">Help people build strength and fitness.</p>           
+            <a href="https://in.indeed.com/career-advice/finding-a-job/how-to-become-a-personal-trainer" target="_blank" class="showcase-link">
+              <img src="./assets/fitness-trainer.jpeg" alt="" class="showcase-image">
+              <h3 class="name">Fitness Trainer</h3>
+              <p class="text">Help people build strength and fitness.</p>
+            </a>           
           </li>
           <li class="showcase-item">
-            <img src="./assets/sports-analyst.jpeg" alt="" class="showcase-image">
-            <h3 class="name">Sports Analyst</h3>
-            <p class="text">Analyze player and match performance data.</p>           
+            <a href="https://uk.indeed.com/career-advice/finding-a-job/how-to-become-a-sports-analyst" target="_blank" class="showcase-link">
+              <img src="./assets/sports-analyst.jpeg" alt="" class="showcase-image">
+              <h3 class="name">Sports Analyst</h3>
+              <p class="text">Analyze player and match performance data.</p>
+            </a>                  
           </li>
           <li class="showcase-item">
-            <img src="./assets/physiotherapist.jpeg" alt="" class="showcase-image">
-            <h3 class="name">Physiotherapist</h3>
-            <p class="text">Support athlete recovery and injury treatment.</p>           
+            <a href="https://in.indeed.com/career-advice/finding-a-job/how-to-become-physiotherapist" target="_blank" class="showcase-link">
+              <img src="./assets/physiotherapist.jpeg" alt="" class="showcase-image">
+              <h3 class="name">Physiotherapist</h3>
+              <p class="text">Support athlete recovery and injury treatment.</p>
+            </a>
           </li>
           <li class="showcase-item">
-            <img src="./assets/sports-journalist.jpeg" alt="" class="showcase-image">
-            <h3 class="name">Sports Journalist</h3>
-            <p class="text">Report sports news and athlete stories.</p>           
+            <a href="https://in.indeed.com/career-advice/finding-a-job/how-to-become-sports-journalist" target="_blank" class="showcase-link">
+              <img src="./assets/sports-journalist.jpeg" alt="" class="showcase-image">
+              <h3 class="name">Sports Journalist</h3>
+              <p class="text">Report sports news and athlete stories.</p>
+            </a>
           </li>
           <li class="showcase-item">
-            <img src="./assets/sports-manager.jpeg" alt="" class="showcase-image">
-            <h3 class="name">Sports Manager</h3>
-            <p class="text">Manage sports events, teams, and operations.</p>           
+            <a href="https://au.indeed.com/career-advice/finding-a-job/how-to-become-a-sports-manager" target="_blank" class="showcase-link">
+              <img src="./assets/sports-manager.jpeg" alt="" class="showcase-image">
+              <h3 class="name">Sports Manager</h3>
+              <p class="text">Manage sports events, teams, and operations.</p>
+            </a>
           </li>
         </ul>
         
       </div>
 
+    </section>
+
+    <section class="resource-section" id="resource-section">
+      <div class="section-content">
+        <div class="resource-details">
+          <h2 class="section-title">resources</h2> 
+        </div>
+
+        <div class="resource-category">
+          <h3>Training Guides</h3>
+          <div class="resource-grid">
+            <div class="resource-card">
+              <div class="icon">
+                <i class="fa-solid fa-dumbbell"></i>
+              </div>
+              <h4>Beginner Fitness Plans</h4>
+              <p>
+                Easy Workout routines and fitness plans for beginners
+              </p>
+              <button>Download Guide</button>
+            </div>
+
+            <div class="resource-card">
+              <div class="icon">
+                <i class="fa-solid fa-apple-whole"></i>
+              </div>
+              <h4>Nutrition PDF's</h4>
+              <p>
+                Learn healthy diets, hydration, and sports nutrition basics.
+              </p>
+              <button>View PDF</button>
+            </div>
+
+            <div class="resource-card">
+              <div class="icon">
+                <i class="fa-solid fa-calendar-days"></i>
+              </div>
+              <h4>Workout Schedules</h4>
+              <p>
+                Structured weekly workout schedules for athletes.
+              </p>
+              <button>Explore Plans</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="resource-category">
+          <h3>Job Portals</h3>
+          <div class="resource-grid">
+            <div class="resource-card">
+              <div class="icon">
+                <i class="fa-solid fa-briefcase"></i>
+              </div>
+              <h4>Sports Job Websites</h4>
+              <p>
+                Discover coaching, fitness, and sports management jobs.
+              </p>
+              <button>Visit Portal</button>
+            </div>
+
+            <div class="resource-card">
+              <div class="icon">
+                <i class="fa-solid fa-user-graduate"></i>
+              </div>
+              <h4>Internship Opportunities</h4>
+              <p>
+                Apply for internships with sports clubs and organizations.
+              </p>
+              <button>Apply Now</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="resource-category">
+          <h3>Scholarships</h3>
+          <div class="resource-grid">
+            <div class="resource-card">
+              <div class="icon">
+                <i class="fa-solid fa-award"></i>
+              </div>
+              <h4>Sports Scholarships</h4>
+              <p>
+                Explore scholarship programs for talented athletes.
+              </p>
+              <button>Apply Here</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="resource-category">
+          <h3>Downloads</h3>
+          <div class="resource-grid">
+            <div class="resource-card">
+              <div class="icon">
+                <i class="fa-solid fa-file-arrow-down"></i>
+              </div>
+              <h4>Resume Templates</h4>
+              <p>
+                Download professional sports resume templates.
+              </p>
+              <button>Download</button>
+            </div>
+
+            <div class="resource-card">
+              <div class="icon">
+                <i class="fa-solid fa-clipboard-list"></i>
+              </div>
+              <h4>Training Planner</h4>
+              <p>
+                Organize your workouts and track your progress.
+              </p>
+              <button>Get Planner</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="faq-section" id="faq-section">
+      <div class="section-content">
+        <div class="faq-details">
+          <h2 class="section-title">FAQ</h2>
+        </div>
+
+        <div class="faq-grid">
+          <div class="faq-card">
+            <h3 class="faq-question">How can I start a career in sports?</h3>
+            <p class="faq-answer">You can begin by choosing a field such as coaching, fitness training, sports management, or analytics and gaining relevant skills, certifications, and experience.</p>
+          </div>
+
+          <div class="faq-card">
+            <h3 class="faq-question">Are there scholarships available for sports students?</h3>
+            <p class="faq-answer">Yes, many universities, academies, and government programs offer sports scholarships based on talent, performance, and achievements.</p>
+          </div>
+
+          <div class="faq-card">
+            <h3 class="faq-question">Can beginners use the training resources on this platform?</h3>
+            <p class="faq-answer">Yes, the platform provides beginner-friendly fitness plans, workout schedules, and learning resources suitable for all skill levels.</p>
+          </div>
+        </div>
+      </div>
+      
     </section>
 
     <section class="contact-section" id="contact-section">
