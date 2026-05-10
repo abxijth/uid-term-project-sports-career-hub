@@ -265,12 +265,14 @@ header .navbar {
 }
 
 .showcase-section .showcase-list .showcase-item {
+  padding-left: 10px;
+  padding-right: 10px;
   user-select: none;
   display: flex;
   align-items: center;
   text-align: center;
   justify-content: space-between;
-  flex-direction: column;
+  flex-direction: column;;
   width: calc(100% / 3 - 110px);
   transition: all 0.25s ease;
   border-radius: 16px;
@@ -472,7 +474,7 @@ header .navbar {
   height: 100px;
   padding: 12px;
   resize: vertical;
-
+  
 }
 
 .contact-section .contact-form .submit-button {
@@ -543,7 +545,16 @@ header .navbar {
 }
 
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 940px) {
+
+  .faq-section .faq-grid .faq-card:active {
+    border: 2px solid #ff9327;
+    background-color: #fcfbf9;
+  }
+
+  .resource-card:active {
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  }
 
   body.show-mobile-menu header::before {
     content: "";
@@ -654,6 +665,7 @@ header .navbar {
   }
 
   .showcase-section .showcase-list .showcase-item {
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
     width: calc(100% / 2 - 30px);
   }
 
