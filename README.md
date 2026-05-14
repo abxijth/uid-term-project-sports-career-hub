@@ -1,7 +1,4 @@
-An interactive platform for sports careers and opportunities
-
 **Sports-Career-Hub / SportsHere**
-An interactive platform for sports careers and opportunities
 
 ---
 
