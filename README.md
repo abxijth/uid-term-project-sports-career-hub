@@ -1,4 +1,4 @@
-**Sports-Career-Hub / SportsHere**
+# Sports-Career-Hub / SportsHere
 
 ---
 
